@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+http.log.config.HttpLogConfig,\
+http.log.filter.RequestBodyLoggingAdapter,\
+http.log.config.HttpLogProperties
