@@ -87,7 +87,7 @@ open class DefaultHttpLoggingProcessor(private val matcher: HttpLogMatcher,
     private fun toStr(key: String, values: Any?, b: StringBuilder) {
         with(b) {
             append("  $key: ")
-            if (values is List<*>) {
+            if (values is Collection<*>) {
                 if (values.size == 1) {
                     append(values.first())
                 } else {
